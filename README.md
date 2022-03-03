@@ -3,14 +3,53 @@
 An open-source, extensible cross-platform (mobile and desktop) web browser made in React Native!
 
 # T Notes
-Globally install react-native-cli if not done already
+Globally install react-native-cli, expo if not done already
 ```
 npm install -g react-native-cli
+npm install -g expo
+npm install -g expo-cli
+npm install -g jest-expo
 ```
 
 Install le modules
 ```
-npm install
+yarn install
+```
+
+Run as web, android or ios
+```
+yarn web
+```
+```
+yarn android
+```
+```
+yarn ios
+```
+
+react-native start
+```
+yarn start
+```
+
+jest
+```
+yarn test
+```
+
+jetify
+```
+yarn original_postinstall
+```
+
+npm run build
+```
+yarn prepare
+```
+
+yarn build
+```
+tsc --project ./tsconfig.build.json
 ```
 
 Android
