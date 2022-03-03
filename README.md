@@ -1,5 +1,4 @@
 [![Build status](https://img.shields.io/github/workflow/status/Triex/react-native-web-browser-app/ci)](https://github.com/Triex/react-native-web-browser-app/actions)
-[![Known Vulnerabilities](https://snyk.io/test/github/Triex/react-native-web-browser-app/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Triex/react-native-web-browser-app?targetFile=package.json)
 [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/Triex/react-native-web-browser-app.svg?maxAge=2592000)](https://codecov.io/github/Triex/react-native-web-browser-app?branch=master)
 [![Licence](https://img.shields.io/github/license/Triex/react-native-web-browser-app.svg)](https://github.com/Triex/react-native-web-browser-app/blob/master/LICENSE)
 
