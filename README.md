@@ -3,8 +3,13 @@
 An open-source, extensible cross-platform (mobile and desktop) web browser made in React Native!
 
 # T Notes
+Globally install react-native-cli if not done already
 ```
 npm install -g react-native-cli
+```
+
+Install le modules
+```
 npm install
 ```
 
