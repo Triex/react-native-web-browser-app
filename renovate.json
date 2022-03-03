@@ -1,3 +1,4 @@
+// Dev Ref: https://github.com/maxmilton/renovate-config
 {
   "extends": [
     "config:base"
