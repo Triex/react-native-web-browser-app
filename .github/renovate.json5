@@ -9,7 +9,7 @@
   "packageRules": [{
     "matchUpdateTypes": ["major", "minor", "patch", "lockFileMaintenance", "bump"],
     "addLabels": ["update"]
-  },
+  }],
   "pin": {
     "addLabels": ["pin"]
   },
