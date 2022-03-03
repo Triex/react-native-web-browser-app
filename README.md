@@ -4,7 +4,8 @@ An open-source, extensible cross-platform (mobile and desktop) web browser made 
 
 # T Notes
 ## Notes
-- need to look at [react-dom](https://github.com/facebook/react/tree/main/packages/react-dom) updates or changelog/commit history to find when it was removed and what the old version was + use that, or update to the new way.
+- Updated some versions and bits, still not enough
+- Need to look at [react-dom](https://github.com/facebook/react/tree/main/packages/react-dom) updates or changelog/commit history to find when it was removed and what the old version was + use that, or update to the new way.
 
 ```
 💩
