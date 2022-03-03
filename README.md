@@ -61,32 +61,18 @@ yarn build
 tsc --project ./tsconfig.build.json
 ```
 
-Android
-```
-react-native run-android
-```
-
-iOS
-```
-react-native run-ios
-```
-
 ### Run app
-
-- Go to the ​project​ ​directory​ folder
-- Run ​npm install
-- Open a code editor of your choice.
 
 > iOS
 
 - Go to ios folder using terminal
 - Run ​pod install
 - Back to project directory
-- Run ​react-native run-ios
+- Run ​react-native run-ios (`yarn ios`)
 
 > Android
 
-- Run ​react-native run-android
+- Run ​react-native run-android (`yarn android`)
 
 -----------------------
 
