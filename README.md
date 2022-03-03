@@ -11,7 +11,7 @@ An open-source, extensible cross-platform (mobile and desktop) web browser made 
 ```
 
 
-## Poo Installation etc (not working yet)
+## 💩 Installation etc (not working yet, need to update react bits)
 Globally install react-native-cli, expo if not done already
 ```
 npm install -g react-native-cli
