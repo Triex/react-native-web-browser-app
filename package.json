@@ -77,5 +77,8 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }
