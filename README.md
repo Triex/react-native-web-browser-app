@@ -1,3 +1,6 @@
+[![Build status](https://img.shields.io/github/workflow/status/Triex/react-native-web-browser-app/ci)](https://github.com/Triex/react-native-web-browser-app/actions)
+[![Licence](https://img.shields.io/github/license/Triex/react-native-web-browser-app.svg)](https://github.com/Triex/react-native-web-browser-app/blob/master/LICENSE)
+
 # React Native Web Browser App
 
 An open-source, extensible cross-platform (mobile and desktop) web browser made in React Native!
