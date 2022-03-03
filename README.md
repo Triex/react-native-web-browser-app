@@ -23,6 +23,25 @@ iOS
 react-native run-ios
 ```
 
+### Run app
+
+- Go to the ​project​ ​directory​ folder
+- Run ​npm install
+- Open a code editor of your choice.
+
+> iOS
+
+- Go to ios folder using terminal
+- Run ​pod install
+- Back to project directory
+- Run ​react-native run-ios
+
+> Android
+
+- Run ​react-native run-android
+
+-----------------------
+
 ## Motivation
 
 My masochistic hobby project is building a web browser for browsing foreign-language websites: [LinguaBrowse iOS](https://apps.apple.com/us/app/linguabrowse/id1281350165?ls=1). It is a basic minimal clone of iOS Safari that does a lot of Natural Language Processing and JS injection, manages a vocabulary list, and handles In-App Purchases. It was written imperatively in Swift, which ultimately brought my productivity to a standstill, as I found UIs much harder to build in UIKit than in React, and state much harder to manage in an imperative coding style.
