@@ -3,3 +3,30 @@
     "config:base"
   ]
 }
+  
+{
+  "extends": ["config:base"],
+  "labels": ["bot"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 5am on the first day of the month"]
+  },
+  "packageRules": [{
+    "matchUpdateTypes": ["major", "minor", "patch", "lockFileMaintenance", "bump"],
+    "addLabels": ["update"]
+  },
+  "pin": {
+    "addLabels": ["pin"]
+  },
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "rangeStrategy": "auto",
+  "rollback": {
+    "addLabels": ["rollback"]
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "schedule": null,
+    "addLabels": ["security"]
+  }
+}
