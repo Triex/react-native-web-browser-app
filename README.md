@@ -3,15 +3,15 @@
 An open-source, extensible cross-platform (mobile and desktop) web browser made in React Native!
 
 # T Notes
-## 💩 Notes
-- need to look at react-dom updates or changelog/commit history to find when it was removed and what the old version was + use that, or update to the new way.
+## Notes
+- need to look at [react-dom](https://github.com/facebook/react/tree/main/packages/react-dom) updates or changelog/commit history to find when it was removed and what the old version was + use that, or update to the new way.
 
 ```
 💩
 ```
 
 
-## 💩 Installation etc (not working yet, need to update react bits)
+## Installation etc (not working yet, need to update react bits)
 Globally install react-native-cli, expo if not done already
 ```
 npm install -g react-native-cli
