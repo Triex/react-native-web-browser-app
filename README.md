@@ -32,7 +32,7 @@ react-native start
 yarn start
 ```
 
-jest
+expo jest
 ```
 yarn test
 ```
