@@ -7,7 +7,7 @@
 An open-source, extensible cross-platform (mobile and desktop) web browser made in React Native!
 
 # T Notes
-Set up for use as base for `TBA`
+Set up for use as base for `TBA`.
 ## Notes
 - Updated some versions and bits, still not enough
 - Need to look at [react-dom](https://github.com/facebook/react/tree/main/packages/react-dom) updates or changelog/commit history to find when it was removed and what the old version was + use that, or update to the new way.
@@ -83,7 +83,7 @@ tsc --project ./tsconfig.build.json
 -----------------------
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
-Because ONE1
+Because ONE1.
 
 ## Scope
 
