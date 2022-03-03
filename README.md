@@ -8,6 +8,7 @@ An open-source, extensible cross-platform (mobile and desktop) web browser made 
 
 # T Notes
 Set up for use as base for `TBA`.
+- [X] Set up CI Linting & Test
 - [ ] Fix TS index type issues
 - [ ] Return to this when it is more meaningful to [ONE1](https://github.com/ONE1DeFi)
 - [ ] Publicise dev/project intent (USP, not a regular browser)
