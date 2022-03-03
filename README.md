@@ -107,10 +107,6 @@ To be clear: This project is **purely** focused on building a browser UI, and fo
 
 ## Prior art
 
-I have been talking a fair bit about browser-building with the Cliqz team, as they are doing some exciting work (see these stellar [blog posts](https://www.0x65.dev)) in this space right now.
-
-Cliqz provides superb prior art – it would be great (in my opinion) if this project could converge with it in some way to provide a single, declarative UI codebase that could be used for all platforms. They already use a cross-platform core. In fact, they have experimented with a React Native UI at least for the purposes of producing a Windows app, and I shall have to ask what brought that experiment to an end. It could be that this project could feed into `cliqz-s` (see below), or vice-versa.
-
 Cliqz give [good reasons](https://www.0x65.dev/blog/2019-12-17/why-we-forked-firefox-and-not-chromium.html) as to why they use Firefox as a basis rather than Chromium.
 
 * [`cliqz-oss/browser-android`](https://github.com/cliqz-oss/browser-android): an Android web browser UI built in Java, based on Firefox for Android(?). Is the UI for the Cliqz Play Store Android app.
