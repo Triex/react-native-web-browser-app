@@ -1,8 +1,8 @@
 {
-  "name": "linguabrowse",
-  "displayName": "LinguaBrowse",
+  "name": "reactNativeWebBrowserApp",
+  "displayName": "reactNativeWebBrowserApp"
   "expo": {
-    "name": "linguabrowse",
+    "name": "reactNativeWebBrowserApp",
     "slug": "expo-template-bare",
     "privacy": "unlisted",
     "sdkVersion": "36.0.0",
