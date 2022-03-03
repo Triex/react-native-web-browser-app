@@ -8,9 +8,9 @@ An open-source, extensible cross-platform (mobile and desktop) web browser made 
 
 # T Notes
 Set up for use as base for `TBA`.
-[ ] Return to this when it is more meaningful to [ONE1](https://github.com/ONE1DeFi)
-[ ] Publicise dev/project intent (USP, not a regular browser)
-[ ] Encourage Open Source Input 
+- [ ] Return to this when it is more meaningful to [ONE1](https://github.com/ONE1DeFi)
+- [ ] Publicise dev/project intent (USP, not a regular browser)
+- [ ] Encourage Open Source Input 
 
 ## Notes
 - Updated some versions and bits, still not enough
