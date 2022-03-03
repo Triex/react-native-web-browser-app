@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shirakaba/react-native-web-browser-app.git"
+    "url": "git+https://github.com/Triex/react-native-web-browser-app.git"
   },
   "bugs": {
-    "url": "https://github.com/shirakaba/react-native-web-browser-app/issues"
+    "url": "https://github.com/Triex/react-native-web-browser-app/issues"
   },
-  "homepage": "https://github.com/shirakaba/react-native-web-browser-app#readme",
+  "homepage": "https://github.com/Triex/react-native-web-browser-app#readme",
   "keywords": [
     "retractible bars",
     "LinguaBrowse",
