@@ -3,6 +3,7 @@
 An open-source, extensible cross-platform (mobile and desktop) web browser made in React Native!
 
 # T Notes
+Set up for use as base for `TBA`
 ## Notes
 - Updated some versions and bits, still not enough
 - Need to look at [react-dom](https://github.com/facebook/react/tree/main/packages/react-dom) updates or changelog/commit history to find when it was removed and what the old version was + use that, or update to the new way.
@@ -77,23 +78,6 @@ tsc --project ./tsconfig.build.json
 
 -----------------------
 
-## Motivation
-
-My masochistic hobby project is building a web browser for browsing foreign-language websites: [LinguaBrowse iOS](https://apps.apple.com/us/app/linguabrowse/id1281350165?ls=1). It is a basic minimal clone of iOS Safari that does a lot of Natural Language Processing and JS injection, manages a vocabulary list, and handles In-App Purchases. It was written imperatively in Swift, which ultimately brought my productivity to a standstill, as I found UIs much harder to build in UIKit than in React, and state much harder to manage in an imperative coding style.
-
-Last year I tried to address these issues [by porting LinguaBrowse to React Native macOS](https://apps.apple.com/us/app/linguabrowse/id1422884180), but ultimately gave up developing it due to the premature state of React Native macOS: I was unable to code-share with iOS; had to make most of the UI on the native side (with lots of message-passing over the bridge) due to incomplete React components; and hot-reloading didn't work. But it was fun and showed great promise.
-
-So here I am foolishly building the same browser for the third time, and this time the landscape of React Native and cross-platform app development is looking more exciting than ever:
-
-* React Native has Fast Refresh and auto-linking;
-* Apple have produced Catalyst (meaning that I don't have to use React Native macOS);
-* Microsoft are driving desktop platforms on React Native (meaning that a new React Native macOS is available anyway);
-* JSI and turbo-modules are on its way;
-* Redux Toolkit makes Redux bearable with TypeScript, and;
-* Expo are doing great work driving the ecosystem with Unimodules, React Navigation, and more.
-
-Given all this momentum behind React Native, I believe that we now have the maturity of tools to pull off a cross-platform, declarative UI-based web browser in a single code-base. So rather than attempt it all on my own and couple the code to LinguaBrowse, I've decided to open-source the 'browser' aspect of LinguaBrowse and maintain any of my brand-specific stuff in a separate fork. In fact, with adequate extension APIs, a fork may not even be needed at all.
-
 ## Scope
 
 The browser should:
@@ -111,7 +95,7 @@ To be clear: This project is **purely** focused on building a browser UI, and fo
 - [X] Rotation
 - [X] Bar retraction
 - [X] Intelligent URL vs. search query determination in search bar
-- [ ] Search suggestions
+- [ ] Search suggestions / autocomplete text field
 - [ ] Bars snapping to fully retracted/revealed upon gesture release
 - [ ] Tabs
 - [ ] History
