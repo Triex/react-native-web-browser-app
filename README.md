@@ -67,8 +67,8 @@ tsc --project ./tsconfig.build.json
 
 > iOS
 
-- Go to ios folder using terminal
-- Run ​pod install
+- Go to ios folder
+- Run `​pod install`
 - Back to project directory
 - Run ​react-native run-ios (`yarn ios`)
 
