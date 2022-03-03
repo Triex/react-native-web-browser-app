@@ -13,11 +13,13 @@ export type TabStateRecord = Record<string, { url: string, loadProgress: number 
 
 const initialPage: string = "https://www.birchlabs.co.uk";
 
+// The initial state of the navbar
 const navigationSlice = createSlice({
     name: 'navigation',
     initialState: {
         activeTab: "tab0",
         tabs: {
+            // (this.DNATranscriber as any)[character];
             tab0: {
                 url: initialPage,
                 isSecure: true,
@@ -97,9 +99,31 @@ export function getWebView(tab: string){
         console.log(`webViewRef for tab "${tab}" is an Reanimated component; calling getNode() on it.`);
         return (webViewRef.current as any).getNode();
     }
+    // the above if statement is a hack to get around the fact that the webViewRef is a React.RefObject<Reanimated.Node>
+    // Rewrite below using proper type instead of 'any'
+    // if(webViewRef.current.getNode){
+    //     console.log(`webViewRef for tab "${tab}" is an Reanimated component; calling getNode() on it.`);
+    //     return webViewRef.current.getNode();
+    // }
 
     return webViewRef.current!;
 }
+
+
+
+// New stuff
+// 
+// export const fetchUrl = (url: string): AppThunk => async (dispatch, getState) => {
+//     const state = getState();
+//     const webView = getWebView(state.navigation.activeTab);
+//     if(!webView){
+//         console.error(`Unable to find webView for tab "${state.navigation.activeTab}".`);
+//         return;
+//     }
+//     webView.loadUrl(url);
+// };
+
+// END yeet it
 
 export function submitUrlBarTextToWebView(text: string, tab?: string): AppThunk {
     return function(dispatch, getState) {
