@@ -2,6 +2,22 @@
 
 An open-source, extensible cross-platform (mobile and desktop) web browser made in React Native!
 
+# T Notes
+```
+npm install -g react-native-cli
+npm install
+```
+
+Android
+```
+react-native run-android
+```
+
+iOS
+```
+react-native run-ios
+```
+
 ## Motivation
 
 My masochistic hobby project is building a web browser for browsing foreign-language websites: [LinguaBrowse iOS](https://apps.apple.com/us/app/linguabrowse/id1281350165?ls=1). It is a basic minimal clone of iOS Safari that does a lot of Natural Language Processing and JS injection, manages a vocabulary list, and handles In-App Purchases. It was written imperatively in Swift, which ultimately brought my productivity to a standstill, as I found UIs much harder to build in UIKit than in React, and state much harder to manage in an imperative coding style.
