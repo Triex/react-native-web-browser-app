@@ -8,13 +8,15 @@ An open-source, extensible cross-platform (mobile and desktop) web browser made 
 
 # T Notes
 Set up for use as base for `TBA`.
+- [X] Set up CI Linting & Test
+- [ ] Fix TS index type issues
 - [ ] Return to this when it is more meaningful to [ONE1](https://github.com/ONE1DeFi)
 - [ ] Publicise dev/project intent (USP, not a regular browser)
 - [ ] Encourage Open Source Input 
 
 ## Notes
 - Updated some versions and bits, still not enough
-- Need to look at [react-dom](https://github.com/facebook/react/tree/main/packages/react-dom) updates or changelog/commit history to find when it was removed and what the old version was + use that, or update to the new way.
+- Need to look at [react-dom](https://github.com/facebook/react/tree/main/packages/react-dom) updates or changelog/commit history to update to the new ways of doing things.
 
 ```
 💩
