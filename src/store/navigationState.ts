@@ -11,7 +11,7 @@ export const webViews = new Map<WebViewId, React.RefObject<WebView>>([
 export type TabStateRecord = Record<string, { url: string, loadProgress: number }>;
 
 
-const initialPage: string = "https://www.birchlabs.co.uk";
+const initialPage: string = "https://www.google.com";
 
 // The initial state of the navbar
 const navigationSlice = createSlice({
@@ -100,7 +100,7 @@ export function getWebView(tab: string){
         return (webViewRef.current as any).getNode();
     }
     // the above if statement is a hack to get around the fact that the webViewRef is a React.RefObject<Reanimated.Node>
-    // Rewrite below using proper type instead of 'any'
+    // Rewrite using proper type instead of 'any'
     // if(webViewRef.current.getNode){
     //     console.log(`webViewRef for tab "${tab}" is an Reanimated component; calling getNode() on it.`);
     //     return webViewRef.current.getNode();
@@ -108,8 +108,6 @@ export function getWebView(tab: string){
 
     return webViewRef.current!;
 }
-
-
 
 // New stuff
 // 
