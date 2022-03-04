@@ -19,7 +19,7 @@ var urlBarTextHandling_1 = require("../utils/urlBarTextHandling");
 exports.webViews = new Map([
     ["tab0", React.createRef()]
 ]);
-var initialPage = "https://www.birchlabs.co.uk";
+var initialPage = "https://www.google.com/";
 var navigationSlice = (0, toolkit_1.createSlice)({
     name: 'navigation',
     initialState: {
