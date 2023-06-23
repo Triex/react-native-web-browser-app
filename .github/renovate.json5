@@ -1,27 +1,36 @@
-// Dev Ref: https://github.com/maxmilton/renovate-config 
+// // Dev Ref: https://github.com/maxmilton/renovate-config 
+//{
+//  "extends": ["config:base"],
+//  "labels": ["bot"],
+//  "lockFileMaintenance": {
+//    "enabled": true,
+//    "schedule": ["before 5am on the first day of the month"]
+//  },
+//  "packageRules": [{
+//    "matchUpdateTypes": ["major", "minor", "patch", "lockFileMaintenance", "bump"],
+//    "addLabels": ["update"]
+//  }],
+//  "pin": {
+//    "addLabels": ["pin"]
+//  },
+//  "prConcurrentLimit": 0,
+//  "prHourlyLimit": 0,
+//  "rangeStrategy": "auto",
+//  "rollback": {
+//    "addLabels": ["rollback"]
+//  },
+//  "vulnerabilityAlerts": {
+//    "enabled": true,
+//    "schedule": null,
+//    "addLabels": ["security"]
+//  }
+//}
+
 {
-  "extends": ["config:base"],
-  "labels": ["bot"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["before 5am on the first day of the month"]
-  },
-  "packageRules": [{
-    "matchUpdateTypes": ["major", "minor", "patch", "lockFileMaintenance", "bump"],
-    "addLabels": ["update"]
-  }],
-  "pin": {
-    "addLabels": ["pin"]
-  },
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
-  "rangeStrategy": "auto",
-  "rollback": {
-    "addLabels": ["rollback"]
-  },
-  "vulnerabilityAlerts": {
-    "enabled": true,
-    "schedule": null,
-    "addLabels": ["security"]
-  }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>maxmilton/renovate-config",
+    "github>maxmilton/renovate-config:monthly"
+  ],
+  "enabled": false
 }
